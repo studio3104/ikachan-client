@@ -4,6 +4,8 @@ post message to irc http gateway `ikachan`.
 
 see: https://metacpan.org/module/ikachan
 
+see: http://blog.yappo.jp/yappo/archives/000760.html (Japanese)
+
 ## Installation
 
 Add this line to your application's Gemfile:
