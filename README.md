@@ -37,10 +37,10 @@ ikachan = Ikachan::Client.new('localhost', 80)
 ikachan = Ikachan::Client.new('localhost', ssl: true)
 
 # use https, and verify default certificate
-ikachan = Ikachan::Client.new('localhost', ssl: ture, verify_ssl: true)
+ikachan = Ikachan::Client.new('localhost', ssl: true, verify_ssl: true)
 
 # use https, and verify specified certificate
-ikachan = Ikachan::Client.new('localhost', ssl: ture, verify_ssl: true, ca_file: '/path/to/ca_file')
+ikachan = Ikachan::Client.new('localhost', ssl: true, verify_ssl: true, ca_file: '/path/to/ca_file')
 ```
 
 ###### send NOTICE
